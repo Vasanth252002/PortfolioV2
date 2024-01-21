@@ -1,0 +1,22 @@
+.right-sidebar-container{
+    color:#bd51ae;
+    font-family: monospace;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    height: 55vh;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 2px;
+    
+}
+.right-sidebar-mail{
+    transform: rotate(90deg);
+    
+}
+.right-sidebar-bar{
+    margin-top:-20px;
+    width:2px;
+    height: 8rem;
+    background-color: white;
+}

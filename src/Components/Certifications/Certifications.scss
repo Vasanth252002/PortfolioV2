@@ -1,0 +1,71 @@
+.Certs-top{
+  margin-bottom:1.5rem ;
+}
+.Certs-hr{
+  display: inline-block;
+  width:30vw;
+  margin-left:0.3rem;
+  border-color: rgb(197, 3, 187);
+}
+.Certs-header{
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  font-weight: 400;
+}
+.Certs-header::before{
+  content: "04.";
+  font-size: 30px;
+  color:  rgb(196, 40, 188);
+  font-family: 'Space Mono', monospace;
+}
+
+.Certs-container{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  width: 100%;
+}
+.Certs-individual{
+  width:calc(33.33% - 20px); /* Adjust the width and gap according to your design */
+  box-sizing: border-box;
+  height:13rem;
+  border-radius: 3%;
+  padding: 1rem;
+  background-color: rgb(68, 3, 59);
+}
+.Certs-title{
+  color:white;
+  font-size: 20px;
+}
+.Certs-icon{
+  color:rgb(245, 11, 225);
+  font-size: 5px;
+}
+.Certs-provider{
+  color:rgb(209, 125, 198);
+  font-size: 15px;
+}
+@media screen and (max-width:1100px) {
+    .Certs-individual{
+       width:45%;
+       box-sizing: border-box;
+    }     
+}
+
+@media screen and (max-width:850px) {
+  .Certs-individual{
+    width:98%;    
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width:400px) {
+    .Certs-individual{
+      width:110%;
+      margin-left: -2rem;
+      box-sizing: border-box;
+    }
+}
+

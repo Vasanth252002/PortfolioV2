@@ -1,0 +1,51 @@
+.triple-render{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.leftSidebar-home{
+  width:8rem;
+  height: 65vh;
+  margin:1px;
+  position: fixed;
+  left: 0;
+  bottom:0;
+}
+
+.rightSidebar-home{
+  width:8rem;
+  height: 50vh;
+  margin:1px;
+  position: fixed;
+  right: 0;
+  bottom:0;
+}
+
+
+.hero-intro{
+  color: #793779;
+  font-weight: 800;
+  font-size: 1rem;
+  margin:0px;
+}
+
+.middle-home{
+  margin-left: auto;
+  margin-right: auto;
+  padding:0.5rem;
+  padding-left: 3rem;
+  height:90vh;
+  width:80%;
+}
+
+@media screen and (max-width:850px){
+  .leftSidebar-home{
+    display: none;
+  }
+  .rightSidebar-home{
+    display: none;
+  }
+}

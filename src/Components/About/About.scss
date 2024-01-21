@@ -1,0 +1,76 @@
+.About-parent{
+    display: flex;
+    width:95%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    .About-tech{
+        list-style: none;
+    }
+    .About-tech li::before {
+        content: "\2023";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: rgb(196, 40, 188); /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      }
+      .About-hr{
+        display: inline-block;
+        width:30vw;
+        margin-left:0.3rem;
+        border-color: rgb(197, 3, 187);
+      }
+    .About-header{
+        color: white;
+        font-size: 30px;
+        display: inline-block;
+        font-weight: 400;
+    }
+    .About-header::before{
+        content: "01.";
+        font-size: 30px;
+        color:  rgb(196, 40, 188);
+        font-family: 'Space Mono', monospace;
+    }
+    
+    .About-para{
+        text-align: justify;
+        width: 95%;
+        color: rgb(205, 188, 206);
+    }
+
+    .About-jpg{
+        width: 12rem;
+        height: 15rem;
+        border-radius: 5%;
+        
+    }
+    .About-dummy{
+        position: relative;
+        border-radius: 5%;
+        border: 3px solid #bd51ae;
+        width: 12rem;
+        height: 15rem;
+    }
+    .About-img{
+        position:relative;
+        margin-top:5rem;
+    }
+    .About-inner-img-div{
+        position: absolute;
+        top:-20px;
+        left:-20px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .About-parent{
+        display: flex;
+        width:95%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 15px;
+    }
+}

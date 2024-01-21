@@ -1,0 +1,31 @@
+.Footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    flex-direction: column;
+    margin-top: 2rem;
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    .Footer-icons-top{
+        list-style: none;
+        color: white;
+        display: flex;
+        width:80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .Footer-icons{
+        margin-left:1rem;
+        margin-right: 1rem;
+        font-size: 20px;
+    }
+    .Footer-content{
+        color:white;
+        font-size: 10px;
+        margin:0.2rem;
+        font-family: 'Space Mono', monospace;
+    }
+}
